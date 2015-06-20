@@ -1,0 +1,111 @@
+<html>
+
+	<head>
+		<title>Weeby Key</title>
+	</head>
+	
+<body>
+
+	<div id ="key">
+		<div id="handle"></div>
+		<div id="stem"></div>
+		<div id="wards">
+			<div class="ward"></div>
+			<div class="ward"></div>
+			<div class="ward"></div>
+		</div>		
+	</div>
+	
+	<div id="styles">
+		<style>
+			html,body
+			{
+				width: 100px;
+				height: 100px;
+				margin: 0;
+				font: 4px sans-serif;
+				line-height: 4px;
+				word-wrap: break-word;
+			}
+			
+			#key div, #styles div
+			{
+				margin-left: 10px;
+			}
+		</style>
+		
+		<style>
+			#handle
+			{ 
+				 width: 16px;
+				 height: 16px;
+				 border: 8px solid orange;
+				 border-radius: 35px;
+				 position: fixed;
+				 top: 34px;
+				 left: -10px;
+			}
+			
+			#stem
+			{
+				 height: 65px;				
+				 border: 5px solid orange;
+				 border-radius: 40px;
+				 -ms-transform: rotate(90deg); 
+				 -webkit-transform: rotate(90deg); 
+				 transform: rotate(90deg);
+				 position: fixed;
+				 right: 32.5px;
+				 top: 12.5px;
+			
+			}
+			
+			.ward
+			{
+				 width: 5px;
+				 height: 5px;				
+				 border: 1px solid orange;
+				 background: orange;
+				 margin: 2px;
+			}
+			
+			.ward + .ward + .ward
+			{
+				 width: 3.5px;
+				 height: 25px;				
+				 border: 1px solid orange;
+				 position: fixed;
+				 right: 2px;
+				 bottom: -7.5px;
+			}
+			
+			#wards
+			{
+				 -ms-transform: rotate(270deg); 
+				 -webkit-transform: rotate(270deg); 
+				 transform: rotate(270deg);
+				 position: fixed;
+				 right: 14.5px;
+				 top: 33.5px;				 
+			}
+			
+			body
+			{
+				font-size: 0px; 
+			}
+		</style>
+		
+		<style>
+			#key #stem
+			{
+				overflow: visible;
+				width: 0;
+				background: purple !important;
+				white-space: nowrap;
+			}
+		</style>
+	</div>
+
+</body>
+
+</html>
