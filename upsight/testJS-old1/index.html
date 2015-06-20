@@ -1,0 +1,123 @@
+<html>
+  <head>
+  
+	<meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="scripts/css/HeaderStyles.css">
+	<link rel="stylesheet" type="text/css" href="scripts/css/MainStyles.css">
+	<link rel="stylesheet" type="text/css" href="scripts/css/NavStyles.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="scripts/js/HeaderJS.js"></script>
+	
+    <title>Upsight Test Page </title>	
+  </head>
+
+  <body>
+      <div id="header">
+	  
+		<ul>
+		   <li class='active has-sub'><a href='#'><span><img src="images/headerBar/logoutBtn.png"></img></span></a></li>
+		   <li class='active has-sub'><a href='#'>
+		     <span style="width: 22px; height: 20px; background-image: url('images/headerBar/userIcon.png'); float: left; display: inline;"></span> 
+			 <span style="padding-left:5px;"/>Zombie+1@playheaven.com</a>
+			  <ul>
+				 <li><a href='#'><span>Option 1</span></a>
+				 </li>
+				 <li><a href='#'><span>Option 2</span></a>
+				 </li>
+			  </ul>
+		   </li>
+		   <li class='active has-sub'>
+		      <a href='#'> 
+		        <span style="width: 20px; height: 20px; background-image: url('images/headerBar/groupIcon.png'); float: left; display: inline;"></span> 
+			    <span style="padding-left:5px;"/>PlayHeaven
+			  </a>			  
+			  <ul>
+				 <li><a href='#'><span>Group 1</span></a>
+				 </li>
+				 <li><a href='#'><span>Group 2</span></a>
+				 </li>
+			  </ul>			
+		   </li>
+		</ul>
+		  
+      </div>
+
+      <div id="navBar">
+            <a href="#"><img src="images/navBar/upsightLogo.png" style="position: relative; left: 15px"/></a><hr class="upsightLogo">
+			
+			<div id="navMenu" style="float: top">
+				<ul>				
+					<li class="active has-sub" style="list-style-position: inside; list-style-image: url('images/navBar/reportingIcon.png');">
+					  <a href="#"><span>Reporting</span></a>
+					  
+					  <ul>
+					    <li class="sub-menu"><a href="#"><span>Custom Dashboards</span></a></li>
+						<li class="sub-menu"><a href="#"><span>Campaign Reports</span></a></li>
+					  </ul>					  
+					</li>
+					
+					<li class="active has-sub" style="list-style-position: inside; list-style-image: url('images/navBar/marketingIcon.png');">
+					  <a href="#"><span>Marketing</span></a>
+					  
+					  <ul>
+					    <li class="sub-menu"><a href="#"><span>Campaigns</span></a></li>
+						<li class="sub-menu"><a href="#"><span>Campaign Priority</span></a></li>
+					  </ul>
+					</li>
+					<li class="active has-sub" style="list-style-position: inside; list-style-image: url('images/navBar/explorationIcon.png');">
+					  <a href="#"><span>Exploration</span></a>
+					  
+					  <ul>
+					    <li class="sub-menu"><a href="#"><span>User Explorer</span></a></li>
+						<li class="sub-menu"><a href="#"><span>DataMine</span></a></li>
+					  </ul>
+					</li>
+				</ul>
+				
+			</div>
+			<div id="navMenu" style="float: bottom; top:32%">
+			
+			    <ul>				
+					<li class="active has-sub" style="list-style-position: inside; list-style-image: url('images/navBar/settingsIcon.png');">
+					  <a href="#"><span>Setings</span></a>
+					  
+					  <ul>
+					    <li class="sub-menu"><a href="#"><span>Application</span></a></li>
+						<li class="sub-menu"><a href="#"><span>Permissions</span></a></li>
+						<li class="sub-menu"><a href="#"><span>User Profiles</span></a></li>
+					  </ul>					  
+					</li>
+				</ul>
+			
+			</div>
+	 </div>
+
+      <div id="contentContainter">
+		<div id="boxMenu">
+		  <div id="boxTop" style="position: relative; height: 40px">
+		    <div style="position: relative; background-color: #420195; width: 300px; height: 35px; float: left"></div>
+			<div style="position: relative; background-color: #420195; width: 300px; height: 35px; float: left"></div>
+		    <div id="chartButton" style="position: relative; height: 40px; float: right">addChart</div>
+		  </div>
+		  
+		  <div id="boxBottom"  style="position: relative; height: 30px; top: 20px">
+		    <div id="chartButton" style="position: relative; height: 40px; float: left">addFilter</div>
+			<div id="chartButton" style="position: relative; height: 40px; float: right">
+			  <form action="">
+				<input type="radio" name="sex" value="female">Make Default
+              </form>
+			</div>
+		  </div>
+		  
+		</div>	  
+		<div id="filterContainer">
+			<div id="filterBox"><p class="filterTitleText">TITLE</p> <hr class="filterStyle"></div>	
+			<div id="filterBox"><p class="filterTitleText">TITLE 2</p> <hr class="filterStyle"></div>
+		</div>	
+      </div>
+  
+  </body>
+
+</html>
